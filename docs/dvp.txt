@@ -1,0 +1,24 @@
+1. FINALIDADE DO DOCUMENTO
+	Este documento tem como objetivo especificar o contexto e requisitos do sistema que será desenvolvido,
+	fornecendo uma visão ampla e com poucos detalhes.
+
+2. ESCOPO DO PRODUTO 
+	Trata-se de um sistema que visa capturar e armazenar dados de sensores providos por microcontroladores
+	conectados à internet e devolver esses dados para os usuários.
+
+3. NÃO ESCOPO DO PRODUTO
+	Não é escopo desse produto:
+		- Providenciar os microcontroladores com sensores para os usuários.
+
+4. VISÃO GERAL DO PRODUTO
+	4.1. REQUISITOS FUNCIONAIS
+		FR01 - Os usuários podem incluir, editar e excluir dispositivos.
+		FR02 - O usuário pode ver as informações coletadas pelo dispositivo.
+		FR03 - O usuário pode ver uma lista com todos seus dispositivos.
+
+	4.2. CASOS DE USO
+		UC01 - O usuário inclui um dispositivo
+		UC02 - O usuário edita um dispositivo
+		UC03 - O usuário exclui um dispositivo
+		UC04 - O usuário vê as informações coletadas por um dispositivo
+		UC05 - O usuário vê a lista de dispositivos cadastrados
